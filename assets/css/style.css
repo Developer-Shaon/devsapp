@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+    font-family: poppins;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.devs {
+    width: 100%;
+    margin: 50px auto 0px;
+    box-shadow: 2px 2px 20px #2a47e9;
+    padding: 15px;
+}
+
+.lead {
+    font-size: 2.25rem;
+    font-weight: 200;
+    color: #5269ee;
+}
+
+.tblcol {
+    border: 3px solid #682ae9;
+    background-color: #000;
+
+    
+}
+
+.dves_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 20px #682ae9;
+  
+}
+
+.note-area {
+    margin-top: 50px;
+    box-shadow: 2px 2px 20px #682ae9;
+    padding: 20px;
+   
+}
+
+.lbltext {
+    color: #682ae9;
+    font-weight: 900 !important;
+    font-size: large;
+  
+}
+.btncolo{
+
+    color:#5269ee;
+    box-shadow: 2px 2px 20px #5269e9;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 20px;
+}
+.btncolo:hover{
+
+    box-shadow: 2px 2px 20px #2b46dd;
+    color:#3450eb;
+}
+
+.smbtn{
+    color:#5269ee;
+    box-shadow: 2px 2px 20px #5269e9;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 20px;
+
+}
+
+.smbtn:hover{
+
+    box-shadow: 2px 2px 20px #2b46dd;
+    color:#3450eb;
+}
+.hdfirst{
+    box-shadow: 2px 2px 20px #5269e9;
+    background-color: #000;
+
+}
+.hdfirst h4{
+
+    color:#5269ee;
+}
+
+.hdsend{
+    box-shadow: 2px 2px 20px #5269e9;
+    background-color: #000;
+   
+}
+
+.hdtnd{
+
+    color: #2a47e9;
+    font-weight: bolder;
+    font-size: 3.30vh;
+}
+
+.modal-design{
+    box-shadow: 2px 2px 20px #5269e9;
+    background-color: #000;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.modalhaead{
+
+    color:#5269ee;
+}
+
+
+#modalview .modal-dialog{
+
+    max-width: 730px;
+}
